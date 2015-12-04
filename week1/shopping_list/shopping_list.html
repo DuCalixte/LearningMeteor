@@ -1,0 +1,19 @@
+<head>
+  <title>The Shopping List app</title>
+</head>
+
+<body>
+  <h1>Welcome to Meteor!</h1>
+  {{> country}}
+  <hr/>
+  {{> hello}}
+</body>
+
+<template name="hello">
+  <button>Click Me</button>
+  <p>You've pressed the button {{counter}} times.</p>
+</template>
+
+<template name="country">
+  <h2>Hello from United States <small>It is now {{currentTime}}</small></h2>
+</template>
