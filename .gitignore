@@ -1,4 +1,6 @@
+.meteor
 .meteor/local
 .meteor/meteorite
 /**/.meteor/
 /**/.meteor/*
+/**/**/.meteor
